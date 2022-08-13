@@ -3,13 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "start": "npm run server",
+    "serve": "vue-cli-service serve --port 3002",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.2",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "cpx": "^1.5.0",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.4",
+    "vue-toast-notification": "^0.6.3",
+    "vue-toaster": "^2.0.0",
+    "vue-toastr": "^2.1.2",
+    "vuelidate": "^0.7.7"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
